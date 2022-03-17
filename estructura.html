@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://bootswatch.com/5/minty/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./estilo.css" />
+  </head>
+  <body>
+    <div class="container mt-1 div-contenedor">
+      <form class="row" id="idForm">
+        <input
+          class="mt-1"
+          type="text"
+          id="idNombre"
+          placeholder="Nombre"
+          name="nombre"
+        />
+        <input
+          class="mt-3"
+          type="email"
+          id="idEmail"
+          placeholder="Email"
+          name="email"
+        />
+        <input
+          class="mt-3"
+          type="consulta"
+          id="idConsulta"
+          placeholder="Consulta"
+          name="consulta"
+        />
+        <button id="botonAlerta" type="submit" class="mt-3 btn btn-primary">
+          Quiero que me contacten
+        </button>
+      </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
